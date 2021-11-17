@@ -7,6 +7,9 @@ public class EmailApp {
 
         Email em2 = new Email("Kelly", "Richards");
         System.out.println(em2.showInfo());
+
+        Email em3 = new Email("Mark", "Duncan");
+        System.out.println(em3.showInfo());
     }
 
 }
